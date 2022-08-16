@@ -2,7 +2,7 @@ const express = require("express")
 const uuid = require("uuid")
 const cors = require('cors')
 
-const port = process.env.PORT || "1337"
+const port = process.env.PORT || 3500
 const app = express()
 app.use(express.json())
 
